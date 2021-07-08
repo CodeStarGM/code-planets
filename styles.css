@@ -206,3 +206,46 @@ body {
     background-position: -340px;
   }
 }
+
+/* Responsive Code */
+@media only screen and (max-width: 480px) {
+  .mars {
+    width: 160px;
+    height: 160px;
+    margin-top: -10px;
+  }
+  .planetMars .loader {
+    width: 180px;
+    top: -20px;
+    height: 180px;
+  }
+  .planetMars .loader span {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background: #190703;
+    border-radius: 50%;
+  }
+
+  .earth {
+    width: 160px;
+    height: 160px;
+    margin-top: -10px;
+  }
+  .planetEarth .loader {
+    width: 180px;
+    top: -20px;
+    height: 180px;
+  }
+  .planetEarth .loader span {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background: #190703;
+    border-radius: 50%;
+  }
+}
